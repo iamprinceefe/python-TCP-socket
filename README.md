@@ -3,7 +3,6 @@
 
 
 This project demonstrates a simple TCP server implementation in Python using the socket module. The server listens for incoming connections, sends a greeting message to the client, and then closes the connection.
-Be sure to check out the project in the "main branch" of this repository.
 
 <h2>Languages and Utilities Used</h2>
 
