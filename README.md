@@ -28,7 +28,18 @@ This project demonstrates a simple TCP server implementation in Python using the
 
 - Connection Management: Closes the client connection after sending the message.
 
-### How It Works
+### How It Works (Client)
+1. Establishes a TCP connection to a specified server and port.
+
+2. Receives data from the server.
+
+3. Closes the connection after receiving the message.
+
+4. Prints the received message in ASCII format.
+
+
+
+### How It Works (Server)
 
 1. *Create a TCP Socket*: Uses socket.AF_INET and socket.SOCK_STREAM to create a TCP/IP socket.
 2. *Bind to Host and Port*: Binds the socket to the host (hostname) and a port (444).
