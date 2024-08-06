@@ -35,7 +35,7 @@ This project demonstrates a simple TCP server implementation in Python using the
 3. *Listen for Connections*: Listens for up to 3 incoming connections.
 4. *Accept Connections*: Accepts incoming client connections and prints the client's address.
 5. *Send Message*: Sends a greeting message to the client.
-6. *Close Connection*: Closes the client socket after the message is sent.
+6. *Close Connection*: Closes the client socket after sending the message.
 
 ### Usage
 
